@@ -147,6 +147,9 @@ public final class TspData {
       return distanceMatrix[i][j];
     }
   }
+  public int[][] getDistanceMatrix() {
+    return distanceMatrix;
+  }
 
   /**
    * Returns the number of cities of this problem instance.
